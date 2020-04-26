@@ -1,0 +1,149 @@
+/********** Base styles **********/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 175%;
+}
+h4 {
+    font-size: 125%;
+}
+
+.to-left {
+    float: left;
+}
+
+.center-aligned {
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.total {
+    background-color: #bbbbbb;
+    margin: 15px;
+    border: 1px solid black;
+    padding: 10px;
+    padding-top: 40px;
+    position: relative;
+}
+
+.title {
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#t1 {
+    background-color: coral;
+}
+
+#t2 {
+    background-color: darkred;
+    color: white;
+}
+
+#t3 {
+    background-color: yellow;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1 {
+      width: 8.33%;
+    }
+    .col-md-2 {
+      width: 16.66%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-4 {
+      width: 33.33%;
+    }
+    .col-md-5 {
+      width: 41.66%;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-7 {
+      width: 58.33%;
+    }
+    .col-md-8 {
+      width: 66.66%;
+    }
+    .col-md-9 {
+      width: 74.99%;
+    }
+    .col-md-10 {
+      width: 83.33%;
+    }
+    .col-md-11 {
+      width: 91.66%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+  }

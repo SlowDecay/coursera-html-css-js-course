@@ -1,22 +1,76 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
             First Web site
         </title>
 
         <style>
+            * {
+                box-sizing: border-box;
+            }
             body {
                 background-color: aqua;
+                font-size: 100%;
             }
+
+            div {
+                background-color: red;
+                height: 200px;
+                float: left;
+                width: 100%;
+                border: 2px solid black;
+            }
+
+            @media screen and (min-width: 800px) and (max-width: 1199px) {
+                .col-m1 { width:  8.33% }
+                .col-m2 { width:  16.67% }
+                .col-m3 { width:  25.0% }
+                .col-m4 { width:  33.33% }
+                .col-m5 { width:  41.67% }
+                .col-m6 { width:  50.0% }
+                .col-m7 { width:  58.33% }
+                .col-m8 { width:  66.67% }
+                .col-m9 { width:  75.0% }
+                .col-m10 { width:  83.33% }
+                .col-m11 { width:  91.67% }
+                .col-m12 { width:  100.0% }
+            } 
+
+            @media screen and (min-width: 1200px) {
+                .col-l1 { width:  8.33% }
+                .col-l2 { width:  16.67% }
+                .col-l3 { width:  25.0% }
+                .col-l4 { width:  33.33% }
+                .col-l5 { width:  41.67% }
+                .col-l6 { width:  50.0% }
+                .col-l7 { width:  58.33% }
+                .col-l8 { width:  66.67% }
+                .col-l9 { width:  75.0% }
+                .col-l10 { width:  83.33% }
+                .col-l11 { width:  91.67% }
+                .col-l12 { width:  100.0% }
+
+            }
+
         </style>
     </head>
 
     <body>
         <h1>Test Site for Coursera</h1>
-        <div style="width: 50%; float: left;">
-            Hello cutu1
-        </div>
-        Hello cutu2
+        <div class="col-l3 col-m6"> Hello </div>
+        <div class="col-l3 col-m6"> Hello </div>
+        <div class="col-l3 col-m6"> Hello </div>
+        <div class="col-l3 col-m6"> Hello </div>
+        <div class="col-l3 col-m6"> Hello </div>
+        <div class="col-l3 col-m6"> Hello </div>
+        <div class="col-l3 col-m6"> Hello </div>
+        <div class="col-l3 col-m6"> Hello </div>
+        <div class="col-l3 col-m6"> Hello </div>
+        <div class="col-l3 col-m6"> Hello </div>
+        <div class="col-l3 col-m6"> Hello </div>
+        <div class="col-l3 col-m6"> Hello </div>
     </body>
+
 </html>
